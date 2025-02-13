@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: demo
+
+api:
+  host: "https://petstore.swagger.io/v2"
+  path:
+    createPet: "/pet"
+    getPet: "/pet/"
